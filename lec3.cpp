@@ -16,5 +16,18 @@ int main(){
     // cout << "Nahi bhai abhi bhi Berozgaar hu :(" << endl;
 
 
+    // if else 
+     cout<<"Placement lagi ki nahi??"<<endl;
 
+    cin >> palcement;
+
+    if(palcement == "ha"){
+        cout << "Kya baat hai bhai!!" <<endl;
+    }
+     else{//nah(palcement == "nahi")
+        cout << "Nahi bhai abhi bhi Berozgaar hu :(" << endl;
+     }
+            
+    
+    
 }
