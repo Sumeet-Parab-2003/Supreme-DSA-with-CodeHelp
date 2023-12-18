@@ -55,15 +55,21 @@ int main(){
 //     else
 //         cout << "You are Failed";
     
-    int bro_num;
-    cout << "Enter no. of brothers"<< endl;
-    cin>> bro_num;
+    // int bro_num;
+    // cout << "Enter no. of brothers"<< endl;
+    // cin>> bro_num;
     
-    if(bro_num==0){
-        cout << "Baat banjayegi";
-    }
-    else 
-     cout << "me maar khalunga";
+    // if(bro_num==0){
+    //     cout << "Baat banjayegi";
+    // }
+    // else 
+    //  cout << "me maar khalunga";
+    int n;
+    // if(cin >> n)
+    //     cout << "sumeet";
 
- }
+
+    // if( cout << "sumeet")
+    //     cout << "love"
+}       
 
