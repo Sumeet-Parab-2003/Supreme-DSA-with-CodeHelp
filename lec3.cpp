@@ -117,22 +117,44 @@ int main(){
      //      cout << "\n";
      // }        
 
-     //   hollow rectangle/square
-     // for( int i=0 ; i<5 ; i++){
-     //      if(i==0 || i ==4){
-     //           for(int j=0 ; j<7 ;j++){
-     //                cout << "* ";
-     //           }
-     //      }
-     //      else{
-     //           cout<<"* ";
-     //           for(int i=0 ; i<5 ; i++){
-     //                cout << "  ";
-     //           }
-     //           cout << "* " ;
-     //      }
-     //      cout << endl;
-     // }
+    //  //   hollow rectangle/square
+    //  for( int i=0 ; i<5 ; i++){
+    //       if(i==0 || i ==4){
+    //            for(int j=0 ; j<7 ;j++){
+    //                 cout << "* ";
+    //            }
+    //       }
+    //       else{
+    //            cout<<"* ";
+    //            for(int i=0 ; i<5 ; i++){
+    //                 cout << "  ";
+    //            }
+    //            cout << "* " ;
+    //       }
+    //       cout << endl;
+    //  }
+
+    //   hollow rectangle/square
+    int a,b;
+    cout << "enter no. of rows: " << endl;
+    cin >>a;
+    cout << "enter no. of columns: " << endl;
+    cin >>b;
+     for( int i=0 ; i<a ; i++){
+          if(i==0 || i ==a-1){
+               for(int j=0 ; j<b ;j++){
+                    cout << "* ";
+               }
+          }
+          else{
+               cout<<"* ";
+               for(int i=0 ; i<b-2; i++){
+                    cout << "  ";
+               }
+               cout << "* " ;
+          }
+          cout << endl;
+     }
         
     
 }
