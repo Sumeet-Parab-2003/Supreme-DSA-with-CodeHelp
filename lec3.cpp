@@ -64,12 +64,95 @@ int main(){
     // }
     // else 
     //  cout << "me maar khalunga";
-    int n;
+    //int n;
     // if(cin >> n)
     //     cout << "sumeet";
 
 
     // if( cout << "sumeet")
     //     cout << "love"
-}       
+
+    //For Loops
+
+     // for(int i=0 ; i<=10 ;i++ ){
+     //      cout << "2*"<<i<<"=" <<2*i << endl;
+     // }
+
+     // for(int i=1 ; i<=100; i= i*2){
+     //      cout << i << endl;
+     // }
+
+     // for(int i=1000 ; i>0 ; i= i/2 ){
+     //      cout << i << endl;
+     // }
+
+
+     //Patterns
+
+     //Solid rectangle
+     // for(int  i=0 ; i<3 ; i++){
+     //      for( int j=0 ; j<5 ; j++){
+     //           cout << "* ";
+     //      }
+     //      cout << endl;
+     // }
+
+
+     //solid Square
+     // for (int i = 0 ; i<4 ;i++){
+     //      for(int j=0 ; j<4 ;j++){
+     //           cout << "* ";
+     //      }
+     //      cout << endl; 
+     // }
+              
+     //User input Solid Square
+     // int n;
+     // cout << "Enter value of n: " ;
+     // cin >> n;
+     // for(int i =0; i<n ;i++ ) {
+     //      for(int j = 0 ; j<n ;j++ ){
+     //           cout<<" * ";
+     //      }
+     //      cout << "\n";
+     // }        
+
+     //   hollow rectangle/square
+     // for( int i=0 ; i<5 ; i++){
+     //      if(i==0 || i ==4){
+     //           for(int j=0 ; j<7 ;j++){
+     //                cout << "* ";
+     //           }
+     //      }
+     //      else{
+     //           cout<<"* ";
+     //           for(int i=0 ; i<5 ; i++){
+     //                cout << "  ";
+     //           }
+     //           cout << "* " ;
+     //      }
+     //      cout << endl;
+     // }
+        int j;
+     for( int i=0 ; i<5 ; i++){
+          if(i==0 || i ==4){
+               for(int j=0 ; j<7 ;j++){
+                    cout << "* ";
+               }
+          }
+          else if( j==0 || j== 6){
+               
+               for(int i=0 ; <5 ; j++){
+                    cout << "* ";
+               }
+               cout << "* " ;
+          }
+          cout << endl;
+     }
+
+}
+   
+
+   
+
 
