@@ -35,8 +35,18 @@ int main(){
      //      cout << i << endl;
      // }
 
-     for(int i=1000 ; i>0 ; i= i/2 ){
-          cout << i << endl;
+     // for(int i=1000 ; i>0 ; i= i/2 ){
+     //      cout << i << endl;
+     // }
+
+
+     //Patterns
+     for(int  i=0 ; i<3 ; i++){
+          for( int j=0 ; j<5 ; j++){
+               cout << "* ";
+          }
+          cout << endl;
      }
+
 }
    
