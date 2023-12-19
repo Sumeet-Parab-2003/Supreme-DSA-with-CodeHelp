@@ -60,14 +60,31 @@ int main(){
      // }
               
      //User input Solid Square
-     int n;
-     cout << "Enter value of n: " ;
-     cin >> n;
-     for(int i =0; i<n ;i++ ) {
-          for(int j = 0 ; j<n ;j++ ){
-               cout<<" * ";
+     // int n;
+     // cout << "Enter value of n: " ;
+     // cin >> n;
+     // for(int i =0; i<n ;i++ ) {
+     //      for(int j = 0 ; j<n ;j++ ){
+     //           cout<<" * ";
+     //      }
+     //      cout << "\n";
+     // }        
+
+     //   hollow rectangle/square
+     for( int i=0 ; i<5 ; i++){
+          if(i==0 || i ==4){
+               for(int j=0 ; j<7 ;j++){
+                    cout << "* ";
+               }
           }
-          cout << "\n";
-     }        
+          else{
+               cout<<"* ";
+               for(int i=0 ; i<5 ; i++){
+                    cout << "  ";
+               }
+               cout << "* " ;
+          }
+          cout << endl;
+     }
 }
    
