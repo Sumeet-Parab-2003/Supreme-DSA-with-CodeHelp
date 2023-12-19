@@ -135,28 +135,47 @@ int main(){
     //  }
 
     //   hollow rectangle/square
-    int a,b;
+    // int n,k;
+    // cout << "enter no. of rows: " << endl;
+    // cin >>n;
+    // cout << "enter no. of columns: " << endl;
+    // cin >>k;
+    //  for( int i=0 ; i<n ; i++){
+    //       if(i==0 || i ==n-1){
+    //            for(int j=0 ; j<k ;j++){
+    //                 cout << "* ";
+    //            }
+    //       }
+    //       else{
+    //            cout<<"* ";
+    //            for(int i=0 ; i<k-2; i++){
+    //                 cout << "  ";
+    //            }
+    //            cout << "* " ;
+    //       }
+    //       cout << endl;
+    //  }
+
+    //Half Pyramid
+    // int n,k;
+    // cout << "enter no. of rows: " << endl;
+    // cin >>n; 
+    // for(int i=0; i<n ;i++){
+    //     for(int j=0; j<i+1 ; j++){
+    //         cout<<"* ";
+    //     }
+    //     cout<< endl;
+    // }
+
+    // Inverted half Pyramid
+    int n,k;
     cout << "enter no. of rows: " << endl;
-    cin >>a;
-    cout << "enter no. of columns: " << endl;
-    cin >>b;
-     for( int i=0 ; i<a ; i++){
-          if(i==0 || i ==a-1){
-               for(int j=0 ; j<b ;j++){
-                    cout << "* ";
-               }
-          }
-          else{
-               cout<<"* ";
-               for(int i=0 ; i<b-2; i++){
-                    cout << "  ";
-               }
-               cout << "* " ;
-          }
-          cout << endl;
-     }
-        
-    
+    cin >>n;
+    for (int i = 0; i<n , i++ ){
+        for (int j=0; j< n-1 ; j++){
+            
+        }
+    }
 }
    
 
