@@ -133,23 +133,8 @@ int main(){
      //      }
      //      cout << endl;
      // }
-        int j;
-     for( int i=0 ; i<5 ; i++){
-          if(i==0 || i ==4){
-               for(int j=0 ; j<7 ;j++){
-                    cout << "* ";
-               }
-          }
-          else if( j==0 || j== 6){
-               
-               for(int i=0 ; <5 ; j++){
-                    cout << "* ";
-               }
-               cout << "* " ;
-          }
-          cout << endl;
-     }
-
+        
+    
 }
    
 
