@@ -1,2 +1,2 @@
-//cout << "enter no. of columns: " << endl;
-    // cin >>k;
+
+    for(int i=0; i<n ;i++){

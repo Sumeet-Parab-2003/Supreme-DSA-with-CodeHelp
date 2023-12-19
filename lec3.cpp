@@ -156,7 +156,7 @@ int main(){
     //       cout << endl;
     //  }
 
-    //Half Pyramid
+    // Half Pyramid
     // int n,k;
     // cout << "enter no. of rows: " << endl;
     // cin >>n; 
@@ -168,14 +168,25 @@ int main(){
     // }
 
     // Inverted half Pyramid
+    // int n,k;
+    // cout << "enter no. of rows: " << endl;
+    // cin >>n;
+    // for (int i = 0; i<n ; i++ ){
+    //     for (int j=0; j< n-i ; j++){
+    //         cout << "* ";
+    //     }
+    //     cout << endl;
+    // }
+
+   // Numeric Half Pyramid
     int n,k;
     cout << "enter no. of rows: " << endl;
-    cin >>n;
-    for (int i = 0; i<n ; i++ ){
-        for (int j=0; j< n-i ; j++){
-            cout << "* ";
+    cin >>n; 
+    for(int i=0; i<n ;i++){
+        for(int j=0; j<i+1 ; j++){
+            cout<<j+1 <<" ";
         }
-        cout << endl;
+        cout<< endl;
     }
 }
    
