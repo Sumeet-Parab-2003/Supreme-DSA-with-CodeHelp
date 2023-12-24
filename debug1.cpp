@@ -11,8 +11,16 @@ using namespace std ;
 // }
 
 // 2) Below code should print the sum of ‘i’ and ‘j’.
+// int main() {
+// 	short i=2300, j=4322;
+// 	cout<<"i+j="<<-(i+j);
+
+// }
+
+// 3) Find perimeter of a rectangle.
 int main() {
-	short i=2300, j=4322;
-	cout<<"i+j="<<-(i+j);
+	float l=8, b=6;
+	float P = 2*(l+b);
+	cout << "Perimeter = "<< P;
 
 }
