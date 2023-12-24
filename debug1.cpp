@@ -18,9 +18,22 @@ using namespace std ;
 // }
 
 // 3) Find perimeter of a rectangle.
-int main() {
-	float l=8, b=6;
-	float P = 2*(l+b);
-	cout << "Perimeter = "<< P;
+// int main() {
+// 	float l=8, b=6;
+// 	float P = 2*(l+b);
+// 	cout << "Perimeter = "<< P;
 
+// }
+
+// 4) Print solid square pattern.
+int main() {
+		int n;
+    cin>>n;
+    for (int i=0; i<n; i++) {
+        for (int j=0; j<n; j++) {
+            cout<<"* ";
+        }
+        cout<<"\n";
+    }
+    
 }
