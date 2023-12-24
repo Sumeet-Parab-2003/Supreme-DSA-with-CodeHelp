@@ -11,3 +11,8 @@ using namespace std ;
 // }
 
 // 2) Below code should print the sum of ‘i’ and ‘j’.
+int main() {
+	short i=2300, j=4322;
+	cout<<"i+j="<<-(i+j);
+
+}
