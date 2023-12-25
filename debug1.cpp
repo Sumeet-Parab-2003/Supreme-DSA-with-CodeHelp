@@ -26,14 +26,33 @@ using namespace std ;
 // }
 
 // 4) Print solid square pattern.
-int main() {
-		int n;
-    cin>>n;
-    for (int i=0; i<n; i++) {
-        for (int j=0; j<n; j++) {
-            cout<<"* ";
-        }
-        cout<<"\n";
-    }
+// int main() {
+// 		int n;
+//     cin>>n;
+//     for (int i=0; i<n; i++) {
+//         for (int j=0; j<n; j++) {
+//             cout<<"* ";
+//         }
+//         cout<<"\n";
+//     }
     
+// }
+
+// 5) Check given number is Prime or not.
+int main(){
+	int n;
+	cin >> n;
+	bool isPrime = true;
+  for(int i=2;i<n;i++){
+      if(i%n == 0){
+          isPrime = false; break;
+      }
+  }
+	if(isPrime== true){
+		cout<<"Prime"<<endl;	
+	}
+	else{
+		cout<<"Not Prime"<<endl;	
+	}
+  return 0;
 }
