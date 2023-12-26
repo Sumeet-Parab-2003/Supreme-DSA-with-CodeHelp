@@ -39,20 +39,20 @@ using namespace std ;
 // }
 
 // 5) Check given number is Prime or not.
-int main(){
-	int n;
-	cin >> n;
-	bool isPrime = true;
-  for(int i=2;i<n;i++){
-      if(i%n == 0){
-          isPrime = false; break;
-      }
-  }
-	if(isPrime== true){
-		cout<<"Prime"<<endl;	
-	}
-	else{
-		cout<<"Not Prime"<<endl;	
-	}
-  return 0;
-}
+// int main(){
+// 	int n;
+// 	cin >> n;
+// 	bool isPrime = true;
+//   for(int i=2;i<n;i++){
+//       if(i%n == 0){
+//           isPrime = false; break;
+//       }
+//   }
+// 	if(isPrime== true){
+// 		cout<<"Prime"<<endl;	
+// 	}
+// 	else{
+// 		cout<<"Not Prime"<<endl;	
+// 	}
+//   return 0;
+// }
