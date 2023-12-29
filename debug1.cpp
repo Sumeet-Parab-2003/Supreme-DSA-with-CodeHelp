@@ -55,3 +55,4 @@ int main(){
 		cout<<"Not Prime"<<endl;	
 	}
   return 0;
+}
