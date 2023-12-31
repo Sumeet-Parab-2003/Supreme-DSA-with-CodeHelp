@@ -39,20 +39,37 @@ using namespace std ;
 // }
 
 // 5) Check given number is Prime or not.
+// int main(){
+// 	int n;
+// 	cin >> n;
+// 	bool isPrime = true;
+//   for(int i=2;i<n;i++){
+//       if(n%i == 0){
+//           isPrime = false; break;
+//       }
+//   }
+// 	if(isPrime== true){
+// 		cout<<"Prime"<<endl;	
+// 	}
+// 	else{
+// 		cout<<"Not Prime"<<endl;	
+// 	}
+//   return 0;
+// }
+
+//6) Print Numeric Hollow Inverted Half Pyramid 
 int main(){
-	int n;
-	cin >> n;
-	bool isPrime = true;
-  for(int i=2;i<n;i++){
-      if(n%i == 0){
-          isPrime = false; break;
-      }
-  }
-	if(isPrime== true){
-		cout<<"Prime"<<endl;	
-	}
-	else{
-		cout<<"Not Prime"<<endl;	
-	}
-  return 0;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;++i){
+        for(int j=0;j<=n-1;j++){
+            if(j==0 || j == n - i - 1 || i == 0){
+                cout<<i+1 << " " ;
+            }
+            else{
+                cout<<"  ";
+            }
+        }
+        cout<<endl;
+    }
 }
