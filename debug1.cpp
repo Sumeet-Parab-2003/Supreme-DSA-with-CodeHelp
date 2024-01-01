@@ -58,18 +58,47 @@ using namespace std ;
 // }
 
 //6) Print Numeric Hollow Inverted Half Pyramid 
-int main(){
-    int n;
-    cin>>n;
-    for(int i=0;i<n;++i){
-        for(int j=0;j<=n-1;j++){
-            if(j==0 || j == n - i - 1 || i == 0){
-                cout<<i+1 << " " ;
-            }
-            else{
-                cout<<"  ";
-            }
-        }
-        cout<<endl;
+// int main() {
+//     int n;
+//     cin>>n;
+//     for (int row = 1; row <= n; row++) {
+//         for (int col = 1; col <=  n - row + 1; col++) {
+//             if (col == 1) {
+//                 cout << row << " ";
+//             } else if (row == 1) {
+//                 cout << col << " ";
+//             } else if (col == n - row + 1) {
+//                 cout << n << " ";
+//             } else {
+//                 cout << "  ";
+//             }
+//         }
+//         cout << endl;
+//     }
+// }
+
+// 7)print this:
+//           1
+//         2 3 2 
+//       3 4 5 4 3 
+//     4 5 6 7 6 5 4 
+//   5 6 7 8 9 8 7 6 5 
+int main() {
+  int n;
+  cin>>n;
+  for (int i = 1; i <= n; i++) {
+    for (int j = i; j <= n ; j++) {
+      cout << "  ";
     }
+    int count = i;
+    for (int k = 1; k <= i ; k++,count++) {
+      cout << count << " ";
+    }
+    int ele = count - 2;
+    for (int j = 1; j <= i - 1; j++) {
+      printf("%d ", ele--);
+    }
+    printf("\n");
+  }
+
 }
