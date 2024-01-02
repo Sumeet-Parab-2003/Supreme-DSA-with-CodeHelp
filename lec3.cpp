@@ -194,44 +194,51 @@ int main(){
     // cout << "enter no. of rows: " << endl;
     // cin >>n;
     // for (int i = 0; i<n ; i++ ){
-    //     for (int j=0; j< n-i ; j++){
-    //         cout << j+1 << " ";
-    //     }
+        // for (int j=0; j< n-i ; j++){
+        //     cout << j+1 << " ";
+        // }
     //     cout << endl;
     // }
 
-    //Inverted half Pyramid
-//     int n,k;
-//     cout << "enter no. of rows: " << endl;
-//     cin >>n;
-//     for (int i = 0; i<n ; i++ ){
-//         for (int j=0; j< n-i ; j++){
-//             cout << "  ";
-//         }
-//              for(int j=0; j<i+1 ; j++){
-//             cout<<" * ";
-//         }
+    //Full Pyramid trial    
+        //     *
+        //    * *
+        //   * * *
+        //  * * * *
+        // * * * * *
 
-//         cout << endl;
-//     }
+    // int n,k;
+    // cout << "enter no. of rows: " << endl;
+    // cin >>n;
+    // for (int i = 0; i<n ; i++ ){
+    //     for (int k=n-i-1; k> 0 ; k--){
+    //         cout << " ";
+    //     }
+    //     for(int j=0; j<i+1; j++){
+    //         cout<<"* ";
+    //     }
+
+    //     cout << endl;
+    // }
 // }
 
 // Hollow inverted half pyramid
 
-    int n;
-    cin >> n;
-    for(int i=0 ;i<n;i++){
-        for(int j=0 ; j<n-i;j++){
-            if(j==0 || i==0 || j==n-i-1){
-                cout << "* " ;
-            }
-            else {
-                cout<<"  ";
-            }
-        }
-        cout<< endl;
-    }
+    // int n;
+    // cin >> n;
+    // for(int i=0 ;i<n;i++){
+    //     for(int j=0 ; j<n-i;j++){
+    //         if( j==0 || i==0 || j==n-i-1){
+    //             cout << "* " ;
+    //         }
+    //         else {
+    //             cout<<"  ";
+    //         }
+    //     }
+    //     cout<< endl;
+    // }
     
+
 }
 
 
