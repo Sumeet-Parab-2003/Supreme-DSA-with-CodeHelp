@@ -1,13 +1,16 @@
-int n;
-    cin >> n;
-    for(int i=0 ;i<n;i++){
-        for(int j=0 ; j<n-i;j++){
-            if( j==0 || i==0 || j==n-i-1){
-                cout << "* " ;
-            }
-            else {
-                cout<<"  ";
-            }
-        }
-        cout<< endl;
+int n,temp ;
+cout << "room me kitne log hai??" << endl;
+cin >> n;
+int avg= 0;
+for (int i=0; i<n; i++){
+    cout << "enter the temperature!" << endl;
+    cin >> temp;
+    
+    if (i == 0){
+        cout << "Avegrage temperature is :" << temp << endl;
     }
+    else{
+        avg = (avg+temp)/2;
+        cout << "Avegrage temperature is : " << avg << endl;
+    }
+}

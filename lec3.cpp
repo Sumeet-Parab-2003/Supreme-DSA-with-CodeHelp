@@ -259,6 +259,45 @@ int main(){
     // }
     
 
+// int n,k,a,b;
+// cout << "Family me kitne log hai??" << endl;
+// cin >> n;
+
+// cout << "Kitne log Behgaye" << endl;
+// cin >> k;
+// int sum = n - k;
+
+// cout << "kitne log wapis aaye??"<< endl;
+// cin >> a;
+
+// if(a==0){
+//     cout << "bachi hui famiy = " << sum << endl;
+// }
+// else{
+//     cout << " jo wapis aaye vo apne sathe aur kitne laye??" << endl;
+//     cin >> b;
+
+//     int total = sum + a + b;
+//     cout << "Toatal family members = " << total <<endl;
+// }
+
+float n,temp ;
+cout << "room me kitne log hai??" << endl;
+cin >> n;
+float avg= 0;
+for (int i=0; i<n; i++){
+    cout << "enter the temperature!" << endl;
+    cin >> temp;
+    
+    if (i == 0){
+        cout << "Avegrage temperature is :" << temp << endl;
+    }
+    else{
+        avg = (avg+temp)/2;
+        cout << "Avegrage temperature is : " << avg << endl;
+    }
+}
+
 }
 
 
